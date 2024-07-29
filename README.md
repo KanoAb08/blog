@@ -17,6 +17,7 @@ BlogApp is an intuitive platform designed for both readers and writers. With a c
 - Appwrite
 - JavaScript
 - Tailwind CSS
+- TinyMCE
 
 ## <a name="features">🔋 Features</a>
 
@@ -24,11 +25,13 @@ BlogApp is an intuitive platform designed for both readers and writers. With a c
 
 👉 **Explore Posts**: Discover and read a variety of blog entries from different authors.
 
-👉 **Create and Edit Posts**: Easily create new posts and edit existing ones with a user-friendly interface.
+👉 **Create and Edit Posts**: Easily create and edit posts with a real-time TinyMCE editor.
 
 👉 **Detailed Post Page**: View detailed content of posts and related entries for a comprehensive reading experience.
 
 👉 **Responsive Design**: A mobile-friendly interface that provides a seamless browsing experience across devices.
+
+👉 **Dark and Light Themes**: Switch between dark and light modes to suit your preference and reading environment.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 

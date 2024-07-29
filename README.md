@@ -36,7 +36,7 @@ Follow these steps to set up the project locally on your machine.
 
 **Prerequisites**
 
-Ensure you have the following installed:
+Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
@@ -45,5 +45,37 @@ Ensure you have the following installed:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/yourusername/blogapp.git
-cd blogapp
+git clone https://github.com/KanoAb08/blog.git
+cd BLOG
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+VITE_APPWRITE_URL = 
+VITE_APPWRITE_PROJECT_ID = 
+VITE_APPWRITE_DATABASE_ID = 
+VITE_APPWRITE_COLLECTION_ID = 
+VITE_APPWRITE_BUCKET_ID = 
+VITE_TINYMCE_API_KEY=
+```
+
+Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
+
+**Running the Project**
+
+```bash
+npm start
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.

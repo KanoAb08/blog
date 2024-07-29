@@ -1,4 +1,4 @@
-<h3 align="center">BlogApp: A Simple and Powerful Blogging Platform</h3>
+<h3 align="center">BlogApp: A Simple Blogging Platform</h3>
 
 ## 📋 <a name="table">Table of Contents</a>
 

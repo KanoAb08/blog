@@ -50,7 +50,6 @@ const PostForm = ({ post }) => {
 						}
 					});
 
-					console.log("create and delete");
 					dispatch(addPost(dbPost));
 					navigate(`/post/${dbPost.$id}`);
 				}
@@ -61,7 +60,6 @@ const PostForm = ({ post }) => {
 				});
 
 				if (dbPost) {
-					console.log("update");
 					dispatch(updatePost(dbPost));
 					navigate(`/post/${dbPost.$id}`);
 				}

@@ -12,7 +12,7 @@ const Footer = () => {
 	];
 
 	return (
-		<footer className="sticky bottom-0 bg-white">
+		<footer className="sticky bottom-0">
 			<Container
 				className={
 					"min-h-16 flex gap-2 flex-col sm:flex-row sm:gap-6 justify-center items-center"

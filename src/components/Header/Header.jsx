@@ -29,7 +29,7 @@ const Header = () => {
 	return (
 		<header className="sticky top-0 z-10 dark:bg-background bg-background">
 			<Container>
-				<nav className="min-h-16 py-4 flex gap-2 flex-wrap justify-between items-center">
+				<nav className="min-h-14 py-2 flex gap-2 flex-wrap justify-between items-center">
 					<div>
 						<Link to="/">
 							<Logo />

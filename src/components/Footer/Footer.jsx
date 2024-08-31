@@ -15,7 +15,7 @@ const Footer = () => {
 		<footer className="sticky bottom-0 dark:bg-background bg-background">
 			<Container
 				className={
-					"min-h-16 flex gap-2 flex-col sm:flex-row sm:gap-6 justify-center items-center"
+					"min-h-14 py-2 flex gap-2 flex-col sm:flex-row sm:gap-6 justify-center items-center"
 				}
 			>
 				<ul className="flex flex-wrap justify-center items-center gap-2">

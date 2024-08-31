@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, LinkedinIcon } from "lucide-react";
+import { Github } from "lucide-react";
 import { Container } from "../index";
 import SocialLinkButton from "../SocialLinkButton";
 
@@ -12,7 +12,7 @@ const Footer = () => {
 	];
 
 	return (
-		<footer className="sticky bottom-0">
+		<footer className="sticky bottom-0 dark:bg-background bg-background">
 			<Container
 				className={
 					"min-h-16 flex gap-2 flex-col sm:flex-row sm:gap-6 justify-center items-center"
